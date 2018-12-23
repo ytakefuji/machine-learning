@@ -11,3 +11,11 @@ In order to train/test the dataset using machine learning, the dataset must be s
 
 train_test_split is a function to split the dataset X (inputs) and y (output) into X_train,X_test,y_train,y_test respectively.
 Two ensemble machine learning algorithms are introduced: random forest and extra trees.
+
+To run machine learning, 
+
+python ext_titanic.py
+
+or
+
+python randf_titanic.py
