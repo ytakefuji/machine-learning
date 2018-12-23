@@ -19,3 +19,11 @@ python ext_titanic.py
 or
 
 python randf_titanic.py
+
+You must install pandas and scikit-learn (sklearn) in your system. To install libraries, you can use conda or pip command.
+
+In order to install conda, download one of the following files from the site:
+
+https://conda.io/miniconda.html
+
+Python 2.7 will retire in 2020. I have tested Python 2.7.
