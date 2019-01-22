@@ -11,6 +11,7 @@ le = preprocessing.LabelEncoder()
 titanic=titanic.apply(le.fit_transform)
 
 
+
 train_test_split is a function to split the dataset X (inputs) and y (output) into X_train,X_test,y_train,y_test respectively.
 Two ensemble machine learning algorithms are introduced: random forest and extra trees.
 
