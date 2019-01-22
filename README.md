@@ -7,7 +7,9 @@ Machine learning algoritms can take care of only numbers.
 Therefore, if the dataset contains non-numeric value (string), all strings must be converted into numbers:
 
 from sklearn import preprocessing
+
 le = preprocessing.LabelEncoder()
+
 titanic=titanic.apply(le.fit_transform)
 
 
