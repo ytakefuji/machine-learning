@@ -6,9 +6,6 @@ titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,
 Machine learning algoritms can take care of only numbers.
 Therefore, if the dataset contains non-numeric value (string), all strings must be converted into numbers.
 
-one_hot_dataframe is a function to convert non-numeric values (strings) to numbers (integers).
-In order to train/test the dataset using machine learning, the dataset must be splited into train dataset and test dataset.
-
 train_test_split is a function to split the dataset X (inputs) and y (output) into X_train,X_test,y_train,y_test respectively.
 Two ensemble machine learning algorithms are introduced: random forest and extra trees.
 
