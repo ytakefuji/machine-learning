@@ -3,9 +3,13 @@ A Titanic problem is used to demonstrate how to use three important functions in
 The goal of machine learning is to create input-output function f: y=f(X) where y and X are output and inputs respectively. We would like to predict y values using X values by forming function f.
 
 ----------------------------
-titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex). "survive" is the output y to be predicted and 12 parameters are inputs X.
-Machine learning algoritms can take care of only numbers.
-Therefore, if the dataset contains non-numeric value (string), all strings must be converted into numbers by the followinig three lines:
+titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex). "survive" is the output y to be predicted and 12 parameters are inputs X. pandas is a library to import titanic.csv data in Python:
+<pre>
+import pandas as pd
+titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
+</pre>
+
+Machine learning algoritms can take care of only numbers. Therefore, if the dataset contains non-numeric value (string), all strings must be converted into numbers by the followinig three lines:
 <pre>
 from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
