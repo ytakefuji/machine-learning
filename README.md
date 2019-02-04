@@ -22,10 +22,13 @@ titanic['age'].fillna(mean,inplace=True)
 </pre>
 ---------------------------
 
-
 train_test_split is a function to split the dataset X (inputs) and y (output) into X_train,X_test,y_train,y_test respectively.
 Two ensemble machine learning algorithms are introduced: random forest and extra trees.
-
+<pre>
+titanic_target = titanic['survived']
+titanic_data=titanic.drop(['survived'],axis=1)
+X_train,X_test,y_train,y_test=train_test_split(titanic_data,titanic_target,test_size=0.2,random_state=54,shuffle=True)
+</pre>
 --------------------------
 
 There are two kinds of machine learning:classifier and regressor. Classifier deals with discrete numbers while regressor with continuous numbers. To run machine learning, type the following command:
