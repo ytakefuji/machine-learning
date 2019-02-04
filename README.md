@@ -1,6 +1,6 @@
 # machine-learning
 A Titanic problem is used to demonstrate how to use three important functions in machine learning including pandas, preprocessing, and train_test_split are detailed.
-The goal of machine learning is to create input-output function f: y=f(X) where y and X are output and inputs respectively. We would like to predict y values against X values.
+The goal of machine learning is to create input-output function f: y=f(X) where y and X are output and inputs respectively. We would like to predict y values using X values.
 
 ----------------------------
 titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex). "survive" is the output y to be predicted and 12 parameters are inputs X.
