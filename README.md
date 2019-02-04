@@ -41,7 +41,7 @@ The following three lines show feature of importances in more important order.
 <pre>
 dic=dict(zip(titanic_data.columns,clf.feature_importances_))
 for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
-print(item[0],round(item[1],4))
+ print(item[0],round(item[1],4))
 </pre>
 
 You must install pandas and scikit-learn (sklearn) in your system. To install libraries, you can use conda or pip command.
