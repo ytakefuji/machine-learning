@@ -15,6 +15,10 @@ from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
 titanic=titanic.apply(le.fit_transform)
 </pre>
+The following fills empty data with mean.
+<pre>
+titanic['age'].fillna(mean,inplace=True)
+</pre>
 ---------------------------
 
 
