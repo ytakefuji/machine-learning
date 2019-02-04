@@ -20,13 +20,11 @@ Two ensemble machine learning algorithms are introduced: random forest and extra
 --------------------------
 
 There are two kinds of machine learning:classifier and regressor. Classifier deals with discrete numbers while regressor with continuous numbers. To run machine learning, type the following command:
-
+<pre>
 $ python ext_titanic.py
-
 or
-
 $ python randf_titanic.py
-
+</pre>
 
 You must install pandas and scikit-learn (sklearn) in your system. To install libraries, you can use conda or pip command.
 
