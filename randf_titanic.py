@@ -3,7 +3,6 @@ titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
 titanic=titanic.drop(['name','row.names'],axis=1)
 mean=round(titanic['age'].mean(),2)
 titanic['age'].fillna(mean,inplace=True)
-#titanic.fillna(0,inplace=True)
 
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
@@ -23,9 +22,6 @@ X_train,X_test,y_train,y_test=train_test_split(titanic_data,titanic_target,test_
 from sklearn.ensemble import RandomForestClassifier
 clf=RandomForestClassifier(n_estimators=382, max_depth=None,min_samples_split=2,random_state=8)
 clf.fit(X_train,y_train)
-#y_pred=clf.predict(X_test)
-#from sklearn import metrics
-#print (metrics.accuracy_score(y_test,y_pred))
 print(clf.score(X_test,y_test))
 dic=dict(zip(titanic_data.columns,clf.feature_importances_))
 for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
