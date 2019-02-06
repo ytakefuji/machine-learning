@@ -2,7 +2,6 @@ import pandas as pd
 titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
 titanic=titanic.drop(['name','row.names'],axis=1)
 mean=titanic['age'].mean()
-print round(mean,2)
 titanic['age'].fillna(mean,inplace=True)
 titanic.fillna(0,inplace=True)
 
