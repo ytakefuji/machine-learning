@@ -4,6 +4,7 @@ titanic=titanic.drop(['name','row.names'],axis=1)
 mean=titanic['age'].mean()
 titanic['age'].fillna(mean,inplace=True)
 titanic.fillna(0,inplace=True)
+titanic.fillna("",inplace=True)
 
 from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
