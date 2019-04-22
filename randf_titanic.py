@@ -3,6 +3,7 @@ titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
 titanic=titanic.drop(['name','row.names'],axis=1)
 mean=round(titanic['age'].mean(),2)
 titanic['age'].fillna(mean,inplace=True)
+titanic.fillna("",inplace=True)
 
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
