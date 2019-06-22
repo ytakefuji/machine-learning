@@ -55,4 +55,6 @@ Python 2.7 will retire in 2020. I have tested Python 2.7.
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 pima-indians-diabetes.csv describes the medical records for Pima Indians.
-
+<pre>
+stack_pima.py
+</pre>
