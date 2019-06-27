@@ -9,7 +9,6 @@ X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=54
 from sklearn.ensemble import RandomForestClassifier
 clf=RandomForestClassifier(n_estimators=382, max_depth=None,min_samples_split=2,random_state=8)
 clf.fit(X_train,y_train)
-y_pred=clf.predict(X_test)
 print(clf.score(X_test,y_test))
 dic=dict(zip(X.columns,clf.feature_importances_))
 for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
