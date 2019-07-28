@@ -60,6 +60,7 @@ randf_pima.py: RandomForestClassifier
 ext_pima.py: ExtraTreesClassifier
 elm_pima.py: GenELMClassifier
 adaboost_pima.py: AdaBoostClassifier with RandomForestClassifier
+lgbm_pima.py: LightGBM
 stack_pima.py: Stacking RandomForestClassifier with ExtraTreesClassifier
 
 </pre>
