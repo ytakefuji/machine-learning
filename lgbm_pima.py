@@ -25,12 +25,23 @@ params = {
     'verbose': 0
 }
 
-gbm = lgb.train(params,
+clf = lgb.train(params,
                 lgb_train,
                 num_boost_round=80,
                 valid_sets=lgb_eval,
                 verbose_eval=1,
                 early_stopping_rounds=5)
-y_pred = gbm.predict(X_test, num_iteration=gbm.best_iteration)
-from sklearn.metrics import roc_auc_score
-print("%.4f"%roc_auc_score(y_test,y_pred))
+y_pred = clf.predict(X_test, num_iteration=clf.best_iteration)
+pred=[]
+for i in y_pred:
+ if i>0.5: pred.append(1)
+ else:pred.append(0)
+y_pred=pred
+print(y_pred)
+from sklearn.metrics import *
+print("roc:%.4f"%roc_auc_score(y_test,y_pred))
+print("acc:%.4f"%accuracy_score(y_test,y_pred))
+print(confusion_matrix(y_test, y_pred))
+print("f1:%.4f"%f1_score(y_test, y_pred))
+print('recall:','%.4f'%recall_score(y_test, y_pred))
+print('precision:','%.4f'%precision_score(y_test, y_pred))
