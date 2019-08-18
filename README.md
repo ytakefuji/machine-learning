@@ -66,8 +66,13 @@ stack_pima.py: Stacking RandomForestClassifier with ExtraTreesClassifier
 </pre>
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
+
+In order to make 64S.h5, run __64S.exe with 64S.001 and 64S.002 in the same folder.
 <pre>
 skin64S_val.py
 keras_skin64RGB.py
 keras_skin64RGBs.py
+64S.001
+64S.002
+__64S.exe
 </pre>
