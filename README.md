@@ -63,6 +63,7 @@ elm_pima.py: GenELMClassifier
 adaboost_pima.py: AdaBoostClassifier with RandomForestClassifier
 lgbm_pima.py: LightGBM
 stack_pima.py: Stacking RandomForestClassifier with ExtraTreesClassifier
+randfTree_pima.py: explainable decision trees
 </pre>
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
