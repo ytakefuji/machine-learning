@@ -68,12 +68,11 @@ randfTree_pima.py: explainable decision trees
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
 
-In order to make 64S.h5, run __64S.exe with 64S.001 and 64S.002 in the same folder.
+In order to make 64S.h5, download 64S.00 and 64S.01, and cat 64S.0* >64S.h5.
 <pre>
 skin64S_val.py
 keras_skin64RGB.py
 keras_skin64RGBs.py
-64S.001
-64S.002
-__64S.exe
+64S.01
+64S.00
 </pre>
