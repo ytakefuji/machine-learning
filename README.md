@@ -64,6 +64,7 @@ adaboost_pima.py: AdaBoostClassifier with RandomForestClassifier
 lgbm_pima.py: LightGBM
 stack_pima.py: Stacking RandomForestClassifier with ExtraTreesClassifier
 randfTree_pima.py: explainable decision trees
+voting_pima.py: Voting classifier
 </pre>
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
