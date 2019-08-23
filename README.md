@@ -79,7 +79,7 @@ Skin cancer using HAM10000
 There are seven skin cancers:
 <pre>
 cancer	no. of images
-nv      6705
+nv          6705
 mel	    1113
 bkl	    1099
 bcc	    514
