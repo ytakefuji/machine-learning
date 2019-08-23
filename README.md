@@ -76,7 +76,7 @@ voting_pima.py: Voting classifier
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
 
-There are seven skin cancers:
+There are seven skin cancers in 10015 images:
 <pre>
 cancer	no. of images
 nv          6705
