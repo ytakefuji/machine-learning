@@ -83,9 +83,9 @@ nv          6705
 mel	    1113
 bkl	    1099
 bcc	    514
-akiec	  327
-vasc	   142
-df	     115
+akiec	    327
+vasc	    142
+df	    115
 </pre>
 
 In order to make 64S.h5, download 64S.00 and 64S.01, and 
