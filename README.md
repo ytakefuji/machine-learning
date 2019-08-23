@@ -63,6 +63,7 @@ Python 2.7 will retire in 2020. I have tested Python 2.7.
 ----------------------------------------------------------------------
 pima-indians-diabetes.csv describes the medical records for Pima Indians.
 <pre>
+pima-indians-diabetes.csv: pima indians diabetes dataset
 randf_pima.py: RandomForestClassifier
 randfS_pima.py: RandomForestClassifier with SMOTE
 ext_pima.py: ExtraTreesClassifier
