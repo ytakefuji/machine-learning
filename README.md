@@ -76,14 +76,27 @@ voting_pima.py: Voting classifier
 -----------------------------------------------------------------------
 Skin cancer using HAM10000
 
+There are seven skin cancers:
+
+cancer	no. of images
+nv     6705
+mel	   1113
+bkl	   1099
+bcc	   514
+akiec	 327
+vasc	  142
+df	    115
+
+
 In order to make 64S.h5, download 64S.00 and 64S.01, and 
 
 $ cat 64S.0* >64S.h5
 
 <pre>
-skin64S_val.py
-keras_skin64RGB.py
-keras_skin64RGBs.py
-64S.01
-64S.00
+skin64S_val.py: Using 64S.h5 (saved model), this can generate the same result of keras_sking64RGBs.py
+keras_skin64RGB.py: Using hmnist_64_64_RGB.csv, this keras model can classify given images into one of seven skin cancers.
+keras_skin64RGBs.py: Using hmnist_64_64_RGB.csv, keras model with SMOTE method can classify given images into one of seven skin cancers.
+keras_skin64S.py: This can classify 28 images into one of seven skin cancers:
+64S.01: cat 64S.0* >64S.h5
+64S.00: 
 </pre>
