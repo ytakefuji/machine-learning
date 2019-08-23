@@ -1,6 +1,8 @@
 # open source machine learning in medicine
 
-Open Source Machine Learning in Medicine is available from Amazon.
+Open Source Machine Learning in Medicine is available from Amazon:
+
+https://www.amazon.com/Open-Source-Machine-Learning-Medicine-ebook/dp/B07WH9H6HM/
 
 ------------------------------------------
 ------------------------------------------
