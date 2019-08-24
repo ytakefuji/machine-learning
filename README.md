@@ -4,6 +4,10 @@ Open Source Machine Learning in Medicine is available from Amazon:
 
 https://www.amazon.com/Open-Source-Machine-Learning-Medicine-ebook/dp/B07WH9H6HM/
 
+The first example (pima-indians-diabetes problem) using random forest ensemble algorithm is used to explain train_test_split function, and other important functions. The diabetes dataset includes data from 768 women with 9 parameters:
+The second example is to diagnose skin cancer using image data. Skin cancer dataset was released by Harvard University.
+Using HAM10000, this book deals with skin cancer classification problem where skin cancer images can be classified into seven skin cancers.
+
 ------------------------------------------
 ------------------------------------------
 A Titanic problem is used to demonstrate how to use three important functions in machine learning where pandas, preprocessing, and train_test_split are detailed.
