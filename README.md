@@ -101,7 +101,7 @@ $ cat 64S.0* >64S.h5
 skin64S_val.py: Using 64S.h5 (saved model), this can generate the same result of keras_sking64RGBs.py
 keras_skin64RGB.py: Using hmnist_64_64_RGB.csv, this keras model can classify given images into one of seven skin cancers.
 keras_skin64RGBs.py: Using hmnist_64_64_RGB.csv, keras model with SMOTE method can classify given images into one of seven skin cancers.
-keras_skin64S.py: This can classify 28 images into one of seven skin cancers:
-64S.01: cat 64S.0* >64S.h5
-64S.00: 
+keras_skin64S.py: This can classify 28 test images into one of seven skin cancers:
+64S.01: data for 64S.h5
+64S.00: data for 64S.h5
 </pre>
