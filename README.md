@@ -65,6 +65,7 @@ Python 2.7 will retire in 2020. I have tested Python 2.7.
 
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
+# pima-indians-diabetes
 pima-indians-diabetes.csv describes the medical records for Pima Indians.
 <pre>
 pima-indians-diabetes.csv: pima indians diabetes dataset
@@ -79,7 +80,7 @@ randfTree_pima.py: explainable decision trees
 voting_pima.py: Voting classifier
 </pre>
 -----------------------------------------------------------------------
-Skin cancer using HAM10000
+# Skin cancer using HAM10000
 
 There are seven skin cancers in 10015 images:
 <pre>
