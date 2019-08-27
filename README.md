@@ -10,6 +10,7 @@ Using HAM10000, this book deals with skin cancer classification problem where sk
 
 ------------------------------------------
 ------------------------------------------
+# Titanic for showing preprocessing
 A Titanic problem is used to demonstrate how to use three important functions in machine learning where pandas, preprocessing, and train_test_split are detailed.
 The goal of machine learning is to create input-output function f: y=f(X) where y and X are output and inputs respectively. We would like to predict y values using X values by forming function f.
 
