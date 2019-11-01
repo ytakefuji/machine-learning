@@ -28,6 +28,8 @@ voting_pima.py: Voting classifier
 
 There are seven skin cancers in 10015 images:
 <pre>
+f['label'].value_counts()
+
 cancer	no. of images
 nv          6705
 mel	    1113
